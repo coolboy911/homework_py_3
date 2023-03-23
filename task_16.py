@@ -6,8 +6,6 @@
 # Ввод: 1
 # 1 2 1 2 2
 # Вывод: 2
-from os import system
-system("cls")
 from random import randint
 n = int(input("Введите кол-во элементов: "))
 list_1 = [randint(0, n//2) for _ in range(n)]
